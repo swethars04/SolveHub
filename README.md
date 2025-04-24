@@ -1,5 +1,5 @@
 # SolveHub
-@@ -0,0 +1,138 @@
+
 ![github-submission-banner](https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f)
  
  # 🚀 Project Title
@@ -96,20 +96,31 @@ The proposed system is an AI-powered Math Tutor Web Application that can accept 
  
  ## ✅ Tasks & Bonus Checklist
  
- - ✅ **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual)  
- - ✅ **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**  (Details in Participant Manual)
- - ✅ **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**  (Details in Participant Manual)
- 
- *(Mark with ✅ if completed)*
+ - ✅ **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form**  
+ - ✅ **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**  
+ - ✅ **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**  
  
  ---
  
  ## 🧪 How to Run the Project
  
  ### Requirements:
- - Node.js / Python / Docker / etc.
- - API Keys (if any)
- - .env file setup (if needed)
+ - Python 3.8+
+ - Tesseract OCR (for image-to-text)
+ - FFmpeg (required by pydub)
+ - **The following Python libraries:**
+    - Flask
+    - pyttsx3
+    - SpeechRecognition
+    - python-dotenv
+    - requests
+    - Pillow
+    - pydub
+    - SQLAlchemy
+ - API Keys : Groq API Key
+ - .env file setup:
+    - Create a .env file in the root folder and add:
+         - GROQ_API_KEY=your_groq_api_key_here
  
  ### Local Setup:
  ```bash
@@ -124,30 +135,65 @@ The proposed system is an AI-powered Math Tutor Web Application that can accept 
  npm run dev
  ```
  
- Provide any backend/frontend split or environment setup notes here.
- 
+ **Notes:**
+ - Make sure Tesseract and FFmpeg are installed and added to your system PATH.
+ - Uploaded images are saved in the uploads/ folder.
+ - Audio responses are saved in the static/audio/ folder.
+ - Access the app in your browser at: http://127.0.0.1:5000/
  ---
  
  ## 🧬 Future Scope
  
  List improvements, extensions, or follow-up features:
  
- - 📈 More integrations  
- - 🛡️ Security enhancements  
- - 🌐 Localization / broader accessibility  
+- 📈 More Integrations
+    - Connect with platforms like Google Classroom, Microsoft Teams, or educational LMS systems to reach more students.
+
+- 🛡️ Security Enhancements
+    - Implement user authentication and secure API handling to ensure safe and private access to learning data.
+
+- 🚀 Interactive Learning Modules
+    - Introduce quizzes, step-by-step problem solving, and personalized learning paths.
+
+- 🎓 Gamified Learning Experience
+    - Add leaderboards, badges, and daily challenges to motivate students to solve more problems and improve continuously.
+      
+- 🤝 Peer Learning & Discussion Boards
+    - Let students connect with each other, post their doubts, and solve problems collaboratively in a safe and moderated environment.
  
  ---
  
  ## 📎 Resources / Credits
  
- - APIs or datasets used  
- - Open source libraries or tools referenced  
- - Acknowledgements  
- 
+ - 🔌 APIs & Services
+     - Groq API – Used to generate accurate and clear math solutions through the LLaMA3 model.
+     - Tesseract OCR – For extracting handwritten or printed text from uploaded math images.
+ - Open source libraries or tools referenced
+     - Flask 
+     - SQLAlchemy 
+     - SpeechRecognition 
+     - pyttsx3 
+     - pydub
+     - dotenv 
+     - Pillow (PIL)
+ - Acknowledgements
+     - Inspired by the vision of open and accessible math education for all.
+     - Thanks to the open-source community for providing these incredible tools.
+     - Special shoutout to Groq for enabling high-quality, low-latency AI interactions via their powerful models. 
  ---
  
  ## 🏁 Final Words
+ Building SolveHub was an exciting and meaningful experience! 🚀
  
- Share your hackathon journey — challenges, learnings, fun moments, or shout-outs!
- 
+ We tackled challenges like combining OCR, voice input, and AI-generated solutions into one smooth workflow. Along the way, we learned a lot about real-time processing, user interaction, and API integration using Groq.
+
+🧠 It was awesome to see how AI can truly help make education more accessible and engaging.
+
+🎉 One of the best moments was hearing the app speak back the solution — it really felt like bringing a smart tutor to life!
+
+🙏 Huge thanks to the Groq team for their powerful API, and to all open-source contributors whose tools made this project possible.
+
+We're proud of what we built and excited to grow SolveHub into a go-to AI learning companion! 🌟
+
+
  ---

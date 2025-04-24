@@ -4,40 +4,42 @@
  
  # 🚀 Project Title
  
- > A one-line tagline or mission statement for your project.
+ >**One Hub.Every Solution**
  
  ---
  
  ## 📌 Problem Statement
- 
- Select the problem statement number and title from the official list given in Participant Manual.
- 
- **Example:**  
- **Problem Statement 7 – Transform the Future of Rural Commerce**
+  
+ **Problem Statement 1 – Weave AI magic with Groq**
  
  ---
  
  ## 🎯 Objective
- 
- What problem does your project solve, and who does it serve?  
- Briefly describe the real-world use case and the value it provides.
+
+The proposed system is an AI-powered Math Tutor Web Application that can accept mathematical queries through images, voice, or text. It provides accurate solutions using a Large Language Model (LLM) API (Groq with LLaMA3), enhancing user interactivity with text-to-speech feedback and persistent query storage via a database.
  
  ---
  
  ## 🧠 Team & Approach
  
  ### Team Name:  
- `Your team name here`
+ `Techies`
  
  ### Team Members:  
- - Name 1 (GitHub / LinkedIn / Role)  
- - Name 2  
- - Name 3  
+ - VEGAVATHI GB   
+ - VIBUSSHANI N.S  
+ - SWETHA RS  
  *(Add links if you want)*
  
  ### Your Approach:  
- - Why you chose this problem  
- - Key challenges you addressed  
+ - Why we chose this problem:
+ - We wanted to make math more accessible and engaging by helping students solve math problems through voice or image input. Many learners struggle with typing or don’t have access to tutors, so a multi-input AI tutor can really help 
+ - Key challenges we addressed:
+ - Extracting clear text from images (especially handwritten or unclear text).
+ - Converting speech to text accurately for math questions.
+ - Getting reliable math solutions from the AI (using Groq API).
+ - Giving audio feedback so it’s accessible for all types of users.
+ - Storing and retrieving solved problems using a database 
  - Any pivots, brainstorms, or breakthroughs during hacking  
  
  ---

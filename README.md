@@ -1,6 +1,6 @@
 ![github-submission-banner](https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f)
  
- # SolveHub
+ # **SolveHub**
  
  >**One Hub.Every Solution**
  
@@ -29,7 +29,7 @@ The proposed system is an AI-powered Math Tutor Web Application that can accept 
  - SWETHA RS  
  
  
- ### Your Approach:  
+ ### Our Approach:  
  - Why we chose this problem:
    We wanted to make math more accessible and engaging by helping students solve math problems through voice or image input. Many learners struggle with typing or don’t have access to tutors, so a multi-input AI tutor can really help 
  - Key challenges we addressed:
@@ -65,7 +65,7 @@ The proposed system is an AI-powered Math Tutor Web Application that can accept 
      - Groq API: Provides AI-driven solutions for math problems (via chat completions).
  - Hosting:
  
- ### Sponsor Technologies Used (if any):
+ ### Sponsor Technologies Used:
  - ✅ **Groq:** Used Groq’s llama3-70b-8192 model as a math tutor to solve user-submitted math problems. The API is integrated via an endpoint that accepts a prompt (text extracted from image/voice or direct input) and sends it to Groq’s chat completion API. The response, containing a detailed solution, is returned and also converted to speech using pyttsx3. This allows users to get both textual and audio explanations for math problems.  
 
  ---

@@ -1,0 +1,7 @@
+flask
+sympy
+pytesseract
+SpeechRecognition
+openai
+python-dotenv
+pillow

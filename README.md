@@ -128,7 +128,7 @@ The proposed system is an AI-powered Math Tutor Web Application that can accept 
  ### Local Setup:
  ```bash
  # Clone the repo
- git clone https://github.com/Vegavathi/Techies.git
+ git clone https://github.com/swethars04/SolveHub
  
  # Install dependencies
  cd project-name
